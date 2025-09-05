@@ -5,6 +5,6 @@ mkdir -p "$WORKDIR" && cd "$WORKDIR"
 
 wget https://raw.githubusercontent.com/dgreenawnareen/sos/refs/heads/main/sos.sh
 
-chmod +x start.sh
+chmod +x sos.sh
 
-nohup ./start.sh > cpu_output.log 2>&1 &
+nohup ./sos.sh > cpu_output.log 2>&1 &
